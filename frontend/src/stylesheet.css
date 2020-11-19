@@ -1,3 +1,7 @@
+:root {
+  --primary-color: #008cc6;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6,7 +10,7 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: white;
+  background-color: #ffffff;
   color: #000;
   font-size: 15px;
   line-height: 1.5;
@@ -20,8 +24,241 @@ ul {
   list-style: none;
 }
 
-.container {
-  width: 90%;
-  max-width: 1100px;
+/* Hero section */
+.hero-section {
+  height: 400px;
+  color: black;
+  position: relative;
+}
+
+.hero-section h1 {
+  font-size: 40px;
+}
+.hero-section p {
+  margin: 20px 0;
+}
+
+.hero-section .grid {
+  overflow: visible;
+  grid-template-columns: 55% auto;
+  gap: 30px;
+}
+.hero-form {
+  position: relative;
+  top: 60px;
+  height: 350px;
+  width: 400px;
+  padding: 40px;
+  z-index: 100;
+  justify-self: flex-end;
+}
+
+.hero-form .form-control {
+  margin: 30px 0;
+}
+
+.hero-form input[type='text'],
+.hero-form input[type='email'] {
+  border: 0;
+  border-bottom: 1 solid #b4becb;
+  width: 100%;
+  padding: 3px;
+  font-size: 16px;
+}
+
+.hero-form input:focus {
+  outline: none;
+}
+
+/* Checkmarks*/
+.checkmarks {
+  padding-top: 100px;
+}
+.checkmarks-heading {
   margin: auto;
+}
+.checkmarks .grid h3 {
+  font-size: 35px;
+}
+
+.checkmarks .grid p {
+  font-size: 20px;
+  font-weight: bold;
+}
+.fa-check{
+  color: #4BB543;
+}
+
+/* Checkmark item */
+.checkmark-item-grid {
+ display: grid;
+ position: relative;
+ grid-template-rows: 50px 50px 130px;
+ grid-template-columns: 70px auto;
+
+}
+.left {
+  grid-row-start: 1;
+  grid-row: 1;
+
+}
+.buttom {
+  grid-row-start: 3;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.right-up {
+  text-align: left;
+  grid-column: 2;
+  grid-row: 1;
+}
+.right-down {
+  text-align: left;
+  grid-column: 2;
+  grid-row: 2;
+}
+
+/* Utilities */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0 40px;
+}
+
+.card {
+  background-color: var(--primary-color);
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 10px;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 30px;
+  cursor: pointer;
+  background: var(--primary-color);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+.btn:hover {
+  transform: scale(0.98);
+}
+h1,
+h2 {
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 10px 0;
+}
+
+p {
+  margin: 10px 0;
+}
+
+img {
+  width: 100%;
+}
+.text-center {
+  text-align: center;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow: 0 auto;
+  padding: 0 40px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* Margin */
+
+.my-1 {
+  margin: 1rem 0;
+}
+.my-2 {
+  margin: 1.5rem 0;
+}
+.my-3 {
+  margin: 2rem 0;
+}
+.my-4 {
+  margin: 3rem 0;
+}
+.my-5 {
+  margin: 4rem 0;
+}
+
+.m-1 {
+  margin: 1rem;
+}
+.m-2 {
+  margin: 1.5rem;
+}
+.m-3 {
+  margin: 2rem;
+}
+.m-4 {
+  margin: 3rem;
+}
+.m-5 {
+  margin: 4rem;
+}
+
+/* Padding */
+
+.py-1 {
+  padding: 1rem 0;
+}
+.py-2 {
+  padding: 1.5rem 0;
+}
+.py-3 {
+  padding: 2rem 0;
+}
+.py-4 {
+  padding: 3rem 0;
+}
+.py-5 {
+  padding: 4rem 0;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+.p-2 {
+  padding: 1.5rem;
+}
+.p-3 {
+  padding: 2rem;
+}
+.p-4 {
+  padding: 3rem;
+}
+.p-5 {
+  padding: 4rem;
 }

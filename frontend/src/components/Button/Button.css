@@ -1,13 +1,7 @@
-:root {
-  --primary: #008cc6;
-}
+/* 
 
 .btn {
-  /* padding: 8px 20px;
-  border-radius: 4px;
-  outline: none;
-  border: none;
-  cursor: pointer; */
+
   display: inline-block;
   font-weight: 400;
   color: #141c25;
@@ -28,18 +22,13 @@
 }
 
 .btn:hover {
-  /* padding: 8px 20px;
-  transition: all 0.3s ease-out;
-  background-color: #098dcf;
-  border-color: #076c9e;
-  color: black;
-  transition: 250ms; */
+
   color: #141c25;
   text-decoration: none;
 }
 
 .btn--primary {
-  /* de næste 2 linjer er tilføjet*/
+
   color: #fff;
   border-color: #098dcf;
   background-color: var(--primary);
@@ -66,4 +55,4 @@
   border-radius: 4px;
   font-size: 20px;
   color: #fff;
-}
+} */

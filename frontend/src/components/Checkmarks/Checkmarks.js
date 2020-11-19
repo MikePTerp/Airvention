@@ -1,0 +1,38 @@
+import React from 'react'
+import CheckmarkItem from './CheckmarkItem'
+const Checkmarks = () => {
+    var itemOne = {
+        header1: "Bedre",
+        header2: "Indeklima",
+        paragraf: "- Undgå spredning af bakterier og skab et bedre indeklima for dig og dine medarbejdere"
+                    }
+    var itemTwo = {
+        header1: "Spar",
+        header2: "Penge",
+        paragraf: "- Med UVC lys sparer du penge på både energi og sygefravær"
+    }
+    var itemTree ={
+        header1: "Spar",
+        header2: "Tid",
+        paragraf: "- Med UVC lys sparer du tid på rengøring af ventilationsanlæget"
+    }
+
+    return (
+        <section className="checkmarks">
+            <div className="container">
+                <h2 className="checkmarks-heading text-center my-1">
+                    Der er mange grunde til at installere UVC lys fra Airvention
+                </h2>
+                <div className="grid grid-3 text-center my-4">
+                    <CheckmarkItem item={itemOne}/>
+                    <CheckmarkItem item={itemTwo}/>
+                    <CheckmarkItem item={itemTree}/>
+                </div>
+
+            </div>
+            
+        </section>
+    )
+}
+
+export default Checkmarks
