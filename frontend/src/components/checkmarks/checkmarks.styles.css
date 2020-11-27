@@ -1,0 +1,53 @@
+/* Checkmarks*/
+.checkmarks {
+    padding-top: 100px;
+  }
+  .checkmarks-heading {
+    margin: auto;
+  }
+  .checkmarks .grid h3 {
+    font-size: 35px;
+  }
+  
+  .checkmarks .grid p {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .fa-check {
+    color: #4bb543;
+  }
+  /* Checkmark item */
+.checkmark-item-grid {
+    display: grid;
+    position: relative;
+    grid-template-rows: 50px 50px 130px;
+    grid-template-columns: 70px auto;
+  }
+  .left {
+    grid-row-start: 1;
+    grid-row: 1;
+  }
+  .buttom {
+    grid-row-start: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  .right-up {
+    text-align: left;
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .right-down {
+    text-align: left;
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+
+  @media(max-width: 768px){
+    .checkmarks .grid
+      {
+      grid-template-rows: 1fr;
+      grid-template-columns: 1fr;
+    }
+  }

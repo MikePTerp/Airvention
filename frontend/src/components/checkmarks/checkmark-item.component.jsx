@@ -16,6 +16,4 @@ class CheckmarkItem extends React.Component {
 }
 }
 
-
-
 export default CheckmarkItem

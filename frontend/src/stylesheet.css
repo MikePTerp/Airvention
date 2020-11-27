@@ -10,10 +10,11 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: #ffffff;
+  background-color: #fff;
   color: #000;
   font-size: 15px;
   line-height: 1.5;
+  text-align: left;
 }
 
 a {
@@ -24,99 +25,11 @@ ul {
   list-style: none;
 }
 
-/* Hero section */
-.hero-section {
-  height: 400px;
-  color: black;
-  position: relative;
-}
 
-.hero-section h1 {
-  font-size: 40px;
-}
-.hero-section p {
-  margin: 20px 0;
-}
 
-.hero-section .grid {
-  overflow: visible;
-  grid-template-columns: 55% auto;
-  gap: 30px;
-}
-.hero-form {
-  position: relative;
-  top: 60px;
-  height: 350px;
-  width: 400px;
-  padding: 40px;
-  z-index: 100;
-  justify-self: flex-end;
-}
 
-.hero-form .form-control {
-  margin: 30px 0;
-}
 
-.hero-form input[type='text'],
-.hero-form input[type='email'] {
-  border: 0;
-  border-bottom: 1 solid #b4becb;
-  width: 100%;
-  padding: 3px;
-  font-size: 16px;
-}
 
-.hero-form input:focus {
-  outline: none;
-}
-
-/* Checkmarks*/
-.checkmarks {
-  padding-top: 100px;
-}
-.checkmarks-heading {
-  margin: auto;
-}
-.checkmarks .grid h3 {
-  font-size: 35px;
-}
-
-.checkmarks .grid p {
-  font-size: 20px;
-  font-weight: bold;
-}
-.fa-check{
-  color: #4BB543;
-}
-
-/* Checkmark item */
-.checkmark-item-grid {
- display: grid;
- position: relative;
- grid-template-rows: 50px 50px 130px;
- grid-template-columns: 70px auto;
-
-}
-.left {
-  grid-row-start: 1;
-  grid-row: 1;
-
-}
-.buttom {
-  grid-row-start: 3;
-  grid-column-start: 1;
-  grid-column-end: 3;
-}
-.right-up {
-  text-align: left;
-  grid-column: 2;
-  grid-row: 1;
-}
-.right-down {
-  text-align: left;
-  grid-column: 2;
-  grid-row: 2;
-}
 
 /* Utilities */
 .container {
@@ -132,6 +45,7 @@ ul {
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
   padding: 20px;
   margin: 10px;
+  top: 100;
 }
 .btn {
   display: inline-block;
@@ -169,7 +83,7 @@ img {
 }
 
 .container {
-  max-width: 1100px;
+  max-width: 1400px;
   margin: 0 auto;
   overflow: 0 auto;
   padding: 0 40px;
@@ -261,4 +175,30 @@ img {
 }
 .p-5 {
   padding: 4rem;
+}
+
+@media(max-width: 768px){
+  .grid,
+   .hero-section .grid,
+  .checkmarks .grid{
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+  }
+  .hero-section{
+    height: auto ;
+  }
+  .hero-section-text{
+    text-align: center;
+    margin-top: 40px;
+  }
+  .blur{
+    margin-right: 0%;
+  }
+
+  .hero-form{
+    justify-self: center;
+    margin: auto;
+    top: 20px;
+  }
+
 }

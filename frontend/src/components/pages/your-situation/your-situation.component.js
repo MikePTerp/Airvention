@@ -1,6 +1,6 @@
 import React from 'react'
 
- const YourSituationScreen = () => {
+ const YourSituation = () => {
     return (
         <div>
             YourSituationScreen
@@ -8,4 +8,4 @@ import React from 'react'
     )
 }
 
-export default YourSituationScreen
+export default YourSituation

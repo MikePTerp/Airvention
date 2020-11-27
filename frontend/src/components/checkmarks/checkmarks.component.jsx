@@ -1,19 +1,21 @@
 import React from 'react'
-import CheckmarkItem from './CheckmarkItem'
+import Checkmark_item from './checkmark-item.component'
+import './checkmarks.styles.css'
+
 const Checkmarks = () => {
     var itemOne = {
         header1: "Bedre",
-        header2: "Indeklima",
+        header2: "indeklima",
         paragraf: "- Undgå spredning af bakterier og skab et bedre indeklima for dig og dine medarbejdere"
                     }
     var itemTwo = {
         header1: "Spar",
-        header2: "Penge",
+        header2: "penge",
         paragraf: "- Med UVC lys sparer du penge på både energi og sygefravær"
     }
     var itemTree ={
         header1: "Spar",
-        header2: "Tid",
+        header2: "tid",
         paragraf: "- Med UVC lys sparer du tid på rengøring af ventilationsanlæget"
     }
 
@@ -24,9 +26,9 @@ const Checkmarks = () => {
                     Der er mange grunde til at installere UVC lys fra Airvention
                 </h2>
                 <div className="grid grid-3 text-center my-4">
-                    <CheckmarkItem item={itemOne}/>
-                    <CheckmarkItem item={itemTwo}/>
-                    <CheckmarkItem item={itemTree}/>
+                    <Checkmark_item item={itemOne}/>
+                    <Checkmark_item item={itemTwo}/>
+                    <Checkmark_item item={itemTree}/>
                 </div>
 
             </div>
