@@ -1,20 +1,57 @@
 export const DropdownItems = [
     {
         title: 'Sundhedssektor',
-        url:'/healthcare', 
+        url:'/sundhedssektor', 
         cName: 'dropdown-links',
         parent: 'Din situation'
     },
     {
         title: 'Fødevare virksomhed',
-        url:'/yourSituation/foodcompany', 
+        url:'/foedevarevirksomhed', 
         cName: 'dropdown-links',
         parent: 'Din situation'
     },
     {
         title: 'Kontor',
-        url:'/office', 
+        url:'/kontor', 
         cName: 'dropdown-links',
         parent: 'Din situation'
     },
+    {
+        title: 'Historie',
+        url:'/vores-historie', 
+        cName: 'dropdown-links',
+        parent: 'Om os'
+    },
+    {
+        title: 'Holdet',
+        url:'/vores-hold', 
+        cName: 'dropdown-links',
+        parent: 'Om os'
+    },
+    {
+        title: 'Vision',
+        url:'/vores-vision', 
+        cName: 'dropdown-links',
+        parent: 'Om os'
+    },
+    {
+        title: 'Bakterier',
+        url:'/bakterier', 
+        cName: 'dropdown-links',
+        parent: 'Lær mere'
+    },
+    {
+        title: 'Skimmel',
+        url:'/skimmel', 
+        cName: 'dropdown-links',
+        parent: 'Lær mere'
+    },
+    {
+        title: 'Hvad er UVC',
+        url:'/hvad-er-uvc', 
+        cName: 'dropdown-links',
+        parent: 'Lær mere'
+    },
+    
 ]

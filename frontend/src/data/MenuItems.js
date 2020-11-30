@@ -9,12 +9,12 @@ export const MenuItems = [
         title: 'Lær mere',
         url:'/LearnMore',
         cName: 'nav-links',
-        hasChrildren: false
+        hasChrildren: true
     },
     {
         title: 'Om Os',
         url:'/About',
         cName: 'nav-links',
-        hasChrildren: false
+        hasChrildren: true
     },
 ]
