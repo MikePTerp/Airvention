@@ -9,35 +9,30 @@ function Footer() {
       <div class='footer-links'>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
-            <h2>Airvention</h2>
-            <Link to='/sign-up'>Hvad kan vi</Link>
-            <Link to='/'>referencer</Link>
-            <Link to='/'>Job mulighed</Link>
-            <Link to='/'>Sponsorer</Link>
-            <Link to='/'>Terms of Service</Link>
+            <h2>Din situation</h2>
+            <Link to='/'>Kontor</Link>
+            <Link to='/'>Fødevare</Link>
+            <Link to='/'>Sundshedsvirksomhed</Link>
           </div>
           <div class='footer-link-items'>
-            <h2>Kontakt os</h2>
-            <Link to='/'>Kontakt</Link>
-            <Link to='/'>Support</Link>
-            <Link to='/'>Lokationer</Link>
-            <Link to='/'>Noget</Link>
+            <h2>Lær mere</h2>
+            <Link to='/'>Hvad er UVC</Link>
+            <Link to='/'>Bakterier</Link>
+            <Link to='/'>Skimmel</Link>
           </div>
         </div>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
-            <h2>Videos</h2>
-            <Link to='/'>Submit Video</Link>
-            <Link to='/'>Ambassadors</Link>
-            <Link to='/'>Agency</Link>
-            <Link to='/'>Influencer</Link>
+            <h2>Om os</h2>
+            <Link to='/'>Vores historie</Link>
+            <Link to='/'>Vores vision</Link>
+            <Link to='/'>Vores hold</Link>
           </div>
           <div class='footer-link-items'>
-            <h2>Social Media</h2>
-            <Link to='/'>LinkedIn</Link>
-            <Link to='/'>Facebook</Link>
-            <Link to='/'>Youtube</Link>
-            <Link to='/'>Twitter</Link>
+            <h2>Kontakt</h2>
+            <p >Knudlundvej 14, 8653 Them</p>
+            <p>+45 29 94 40 00</p>
+            <a href="mailto:info@airvention.com">info@airvention.com</a>
           </div>
         </div>
       </div>

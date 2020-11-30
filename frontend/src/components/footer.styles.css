@@ -69,6 +69,8 @@
   .footer-link-items h2 {
     margin-bottom: 16px;
   }
+
+
   
   .footer-link-items > h2 {
     color: #fff;
@@ -78,6 +80,13 @@
     color: #fff;
     text-decoration: none;
     margin-bottom: 0.5rem;
+  }
+
+  .footer-link-items p {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    margin-top: 0%;
   }
   
   .footer-link-items a:hover {
