@@ -1,19 +1,19 @@
 export const MenuItems = [
     {
         title: 'Din situation',
-        url:'/YourSituation',
+        url:'/Din-situation',
         cName: 'nav-links',
         hasChrildren: true
     },
     {
         title: 'Lær mere',
-        url:'/LearnMore',
+        url:'/Laer-mere',
         cName: 'nav-links',
         hasChrildren: true
     },
     {
         title: 'Om Os',
-        url:'/About',
+        url:'/Om-os',
         cName: 'nav-links',
         hasChrildren: true
     },

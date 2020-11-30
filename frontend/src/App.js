@@ -34,7 +34,7 @@ class App extends Component {
       return{sideDrawerOpen: !prevState.sideDrawerOpen}
       
     })
-    }
+  }
 
   backDropClickHandler = () => {
     this.setState({sideDrawerOpen: false})
@@ -65,10 +65,10 @@ class App extends Component {
       <Route path='/skimmel' component={Mold} />
       <Route path='/hvad-er-uvc' component={WhatIsUvc} />
       {/* Your situation and sub pages */}
-      <Route path='/yoursituation' component={YourSituation} />
-      <Route path='/foodcompany' component={FoodCompany} />
-      <Route path='/healthcare' component={Healthcare} />
-      <Route path='/office' component={Office} />
+      <Route path='/din-situation' component={YourSituation} />
+      <Route path='/foedevarevirksomhed' component={FoodCompany} />
+      <Route path='/sundhedssektor' component={Healthcare} />
+      <Route path='/kontor' component={Office} />
       </Switch>
     <Footer />
     </Router>
