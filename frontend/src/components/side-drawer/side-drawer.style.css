@@ -73,10 +73,9 @@
   font-weight: 500;
   padding: 10px 0px;
   display: block;
-  /* text-decoration: none; */
   color: #262626;
 }
-.testing{
+.go-back{
   display: flex;
   cursor: pointer;
 }
