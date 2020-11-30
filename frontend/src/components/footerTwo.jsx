@@ -10,23 +10,23 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>Din situation</h2>
-            <Link to='/'>Kontor</Link>
-            <Link to='/'>Fødevare</Link>
-            <Link to='/'>Sundshedsvirksomhed</Link>
+            <Link to='/kontor'>Kontor</Link>
+            <Link to='/Foedevare'>Fødevare</Link>
+            <Link to='/Sundshedsvirksomhed'>Sundshedsvirksomhed</Link>
           </div>
           <div class='footer-link-items'>
             <h2>Lær mere</h2>
-            <Link to='/'>Hvad er UVC</Link>
-            <Link to='/'>Bakterier</Link>
-            <Link to='/'>Skimmel</Link>
+            <Link to='/Hvad-er-UVC'>Hvad er UVC</Link>
+            <Link to='/Bakterier'>Bakterier</Link>
+            <Link to='/Skimmel'>Skimmel</Link>
           </div>
         </div>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>Om os</h2>
-            <Link to='/'>Vores historie</Link>
-            <Link to='/'>Vores vision</Link>
-            <Link to='/'>Vores hold</Link>
+            <Link to='/Vores-historie'>Vores historie</Link>
+            <Link to='/Vores-vision'>Vores vision</Link>
+            <Link to='/Vores-hold'>Vores hold</Link>
           </div>
           <div class='footer-link-items'>
             <h2>Kontakt</h2>
@@ -48,11 +48,15 @@ function Footer() {
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'
-              to='/'
+              to=''
               target='_blank'
               aria-label='Facebook'
             >
+              <a href="https://www.facebook.com/Airvention" target='_blank'>
               <i class='fab fa-facebook-f' />
+              </a>
+              
+              
             </Link>
             <Link
               class='social-icon-link instagram'
@@ -60,7 +64,10 @@ function Footer() {
               target='_blank'
               aria-label='Instagram'
             >
+              <a href="https://www.facebook.com/Airvention" target='_blank'>
               <i class='fab fa-instagram' />
+              </a>
+              
             </Link>
             <Link
               class='social-icon-link youtube'
@@ -68,7 +75,10 @@ function Footer() {
               target='_blank'
               aria-label='Youtube'
             >
+              <a href="https://www.youtube.com/channel/UCzl4ZKKy-TRI7ciwqiZV0QQ" target='_blank'>
               <i class='fab fa-youtube' />
+              </a>
+              
             </Link>
             <Link
               class='social-icon-link twitter'
@@ -76,7 +86,10 @@ function Footer() {
               target='_blank'
               aria-label='Twitter'
             >
+              <a href="https://www.facebook.com/Airvention" target='_blank'>
               <i class='fab fa-twitter' />
+              </a>
+              
             </Link>
             <Link
               class='social-icon-link twitter'
@@ -84,7 +97,10 @@ function Footer() {
               target='_blank'
               aria-label='LinkedIn'
             >
+              <a href="https://www.linkedin.com/company/airvention-aps/" target='_blank'>
               <i class='fab fa-linkedin' />
+              </a>
+              
             </Link>
           </div>
         </div>
