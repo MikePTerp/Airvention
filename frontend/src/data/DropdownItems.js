@@ -21,19 +21,19 @@ export const DropdownItems = [
         title: 'Historie',
         url:'/vores-historie', 
         cName: 'dropdown-links',
-        parent: 'Om os'
+        parent: 'Om Os'
     },
     {
         title: 'Holdet',
         url:'/vores-hold', 
         cName: 'dropdown-links',
-        parent: 'Om os'
+        parent: 'Om Os'
     },
     {
         title: 'Vision',
         url:'/vores-vision', 
         cName: 'dropdown-links',
-        parent: 'Om os'
+        parent: 'Om Os'
     },
     {
         title: 'Bakterier',
