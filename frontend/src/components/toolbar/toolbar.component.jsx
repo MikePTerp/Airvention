@@ -8,8 +8,8 @@ import {NavLink} from 'react-router-dom'
 const Toolbar = props => {
 
     return (
-        <div className="container">
-            <div className="main-nav">
+            <nav className="main-nav">
+                <div className="container">
                <NavLink to='/'> <img src="/logo.png" className="logo" alt="Airvention" /></NavLink>
                 <ul className='main-menu'>
                 {MenuItems.map((item, index) => {
@@ -53,7 +53,8 @@ const Toolbar = props => {
                     <a href="mailto:info@airvention.com" className="btn">Kontakt os</a>
                     </li>
                 </ul>
-                <ul className="main-nav right-menu">
+
+                <ul className="right-menu">
                     <li><a href="tel:25944000">
                     <i className={'fas fa-phone-alt fa-2x'}></i>
                     </a>
@@ -67,8 +68,8 @@ const Toolbar = props => {
                     <DrawerToggleButton click={props.drawerClickHandler} />
                     </li>
                 </ul>
-            </div>
-        </div>
+                </div>
+            </nav>
 )
 
 }
