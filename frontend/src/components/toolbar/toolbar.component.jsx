@@ -22,6 +22,7 @@ const Toolbar = props => {
                                     <div className="dropdown-wrapper">
                                 <ul className="dropdown-list">
                                     {DropdownItems.map((childItem, childIndex) =>{
+                                        if(childItem.parent == item.title){
                                         return(
                                         <li key={childIndex}>
                                             <NavLink className={childItem.cName} exact to={childItem.url}>
@@ -29,6 +30,7 @@ const Toolbar = props => {
                                             </NavLink>
                                         </li>
                                         )
+                                        }
                                     })}
                                 </ul>
                                     </div>
