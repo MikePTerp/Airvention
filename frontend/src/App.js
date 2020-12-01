@@ -17,7 +17,7 @@ import FoodCompany from './components/pages/your-situation/food-company/food-com
 import Healthcare from './components/pages/your-situation/healthcare/healthcare.component'
 import Office from './components/pages/your-situation/office/office.component'
 //Components
-import Footer from './components/footerTwo'
+import Footer from './components/footer/footer.component'
 import Toolbar from './components/toolbar/toolbar.component'
 import SideDrawer from './components/side-drawer/side-drawer.component'
 import Backdrop from './components/backdrop/backdrop.component'

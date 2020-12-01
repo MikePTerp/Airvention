@@ -8,13 +8,13 @@ function Footer() {
       <div class='footer-links'>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
-            <h2>Din situation</h2>
+            <Link to='/din-situation'><h2>Din situation</h2></Link>
             <Link to='/Sundhedssektor'>Sundhedssektor</Link>
             <Link to='/Foedevarevirksomhed'>Fødevarevirksomhed</Link>
             <Link to='/Kontor'>Kontor</Link>
           </div>
           <div class='footer-link-items'>
-            <h2>Lær mere</h2>
+            <Link to='/laermere'><h2>Lær mere</h2></Link>
             <Link to='/Bakterier'>Bakterier</Link>
             <Link to='/Skimmel'>Skimmel</Link>
             <Link to='/Hvad-er-UVC'>Hvad er UVC</Link>
@@ -22,7 +22,7 @@ function Footer() {
         </div>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
-            <h2>Om os</h2>
+            <Link to='/om-os'><h2>Om os</h2></Link>
             <Link to='/Vores-historie'>Vores historie</Link>
             <Link to='/Vores-hold'>Vores hold</Link>
             <Link to='/Vores-vision'>Vores vision</Link>

@@ -81,6 +81,9 @@
     text-decoration: none;
     margin-bottom: 0.5rem;
   }
+  .footer-link-items a:first-child {
+    margin-bottom: 0px;
+  }
 
   .footer-link-items p {
     color: #fff;
