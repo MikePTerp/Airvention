@@ -15,6 +15,7 @@ body {
   font-size: 15px;
   line-height: 1.5;
   text-align: left;
+  overflow-x: hidden;
 }
 
 a {
@@ -24,12 +25,6 @@ a {
 ul {
   list-style: none;
 }
-
-
-
-
-
-
 
 /* Utilities */
 .container {
@@ -108,6 +103,9 @@ img {
 .grid-3 {
   grid-template-columns: repeat(3, 1fr);
 }
+.grid-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
 
 /* Margin */
 
@@ -177,28 +175,9 @@ img {
   padding: 4rem;
 }
 
-@media(max-width: 768px){
-  .grid,
-   .hero-section .grid,
-  .checkmarks .grid{
+@media (max-width: 768px) {
+  .grid {
     grid-template-rows: 1fr;
     grid-template-columns: 1fr;
   }
-  .hero-section{
-    height: auto ;
-  }
-  .hero-section-text{
-    text-align: center;
-    margin-top: 40px;
-  }
-  .blur{
-    margin-right: 0%;
-  }
-
-  .hero-form{
-    justify-self: center;
-    margin: auto;
-    top: 20px;
-  }
-
 }

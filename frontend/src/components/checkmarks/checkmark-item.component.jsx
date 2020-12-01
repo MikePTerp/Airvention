@@ -1,19 +1,23 @@
 import React from 'react'
-import PropTypes from 'prop-types'
+import './checkmarks.styles.css'
 
-class CheckmarkItem extends React.Component {
-    render()
-    {    return (
+const CheckmarkItem = ({item}) =>  {
+      return (
           <div className="checkmark-item-grid">
+            <div className="checkmark-top">
               <div className="left">
-              <i class="fas fa-check fa-3x "></i>
+              <i class="fas fa-check fa-4x "></i>
             </div>              
-              <h3 className="right-up">{this.props.item.header1}</h3>
-              <h3 className="right-down">{this.props.item.header2}</h3>
-              <p className="buttom">{this.props.item.paragraf}</p>
+            <div className="checkmark-headers">
+              <h3 className="right-up">{item.header1}</h3>
+              <h3 className="right-down">{item.header2}</h3>
+              </div>
+              <span></span>
+              </div>
+              <p className="buttom">{item.paragraf}</p>
               </div>
     )
-}
+
 }
 
 export default CheckmarkItem

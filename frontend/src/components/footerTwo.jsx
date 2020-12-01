@@ -1,6 +1,5 @@
 import React from 'react';
 import './footer.styles.css';
-import { Button } from './button/button.component';
 import { Link } from 'react-router-dom';
 
 function Footer() {
@@ -53,7 +52,7 @@ function Footer() {
               target='_blank'
               aria-label='Facebook'
             >
-              <a href="https://www.facebook.com/Airvention" target='_blank'>
+              <a href="https://www.facebook.com/Airvention" target='_blank' rel="noopener noreferrer">
               <i class='fab fa-facebook-f' />
               </a>
               
@@ -65,7 +64,7 @@ function Footer() {
               target='_blank'
               aria-label='Instagram'
             >
-              <a href="https://www.facebook.com/Airvention" target='_blank'>
+              <a href="https://www.facebook.com/Airvention" target='_blank' rel="noopener noreferrer">
               <i class='fab fa-instagram' />
               </a>
               
@@ -76,7 +75,7 @@ function Footer() {
               target='_blank'
               aria-label='Youtube'
             >
-              <a href="https://www.youtube.com/channel/UCzl4ZKKy-TRI7ciwqiZV0QQ" target='_blank'>
+              <a href="https://www.youtube.com/channel/UCzl4ZKKy-TRI7ciwqiZV0QQ" target='_blank' rel="noopener noreferrer">
               <i class='fab fa-youtube' />
               </a>
               
@@ -87,7 +86,7 @@ function Footer() {
               target='_blank'
               aria-label='Twitter'
             >
-              <a href="https://www.facebook.com/Airvention" target='_blank'>
+              <a href="https://www.facebook.com/Airvention" target='_blank' rel="noopener noreferrer">
               <i class='fab fa-twitter' />
               </a>
               

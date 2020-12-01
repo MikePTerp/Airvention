@@ -33,7 +33,7 @@
 }
 /* Dropdown list */
 .dropdown-list {
-  position: absolute;
+  position: absolute; 
   opacity: 0;
   visibility: hidden;
   width: 200px;
@@ -42,7 +42,7 @@
 .main-nav ul li:hover > .dropdown-wrapper > ul {
   visibility: visible;
   opacity: 1;
-  background: #f2f2f2;
+  background: #fff;
   box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.5);
 }
 

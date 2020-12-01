@@ -1,5 +1,5 @@
 import React from 'react'
-import Checkmark_item from './checkmark-item.component'
+import CheckmarkItem from './checkmark-item.component'
 import './checkmarks.styles.css'
 
 const Checkmarks = () => {
@@ -26,9 +26,9 @@ const Checkmarks = () => {
                     Der er mange grunde til at installere UVC lys fra Airvention
                 </h2>
                 <div className="grid grid-3 text-center my-4">
-                    <Checkmark_item item={itemOne}/>
-                    <Checkmark_item item={itemTwo}/>
-                    <Checkmark_item item={itemTree}/>
+                    <CheckmarkItem item={itemOne}/>
+                    <CheckmarkItem item={itemTwo}/>
+                    <CheckmarkItem item={itemTree}/>
                 </div>
 
             </div>
