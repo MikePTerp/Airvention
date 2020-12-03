@@ -20,7 +20,7 @@ body {
 }
 
 a {
-  color: #262626;
+  color: var(--text-grey);
   text-decoration: none;
 }
 ul {

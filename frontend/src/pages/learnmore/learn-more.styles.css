@@ -5,13 +5,13 @@
 .col-12 h1 {
     font-size: 3rem;
     font-weight: bold;
+    color: var(--text-grey);
 }
 .page-main{
     padding-top: 15px;
 }
 
-.section-wrapper h1,
-h2,
+.col-6 h2,
 p {
   color: var(--text-grey);
 }
