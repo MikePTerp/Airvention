@@ -1,0 +1,40 @@
+.section-wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+.col-12 h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+.page-main{
+    padding-top: 15px;
+}
+
+.section-wrapper h1,
+h2,
+p {
+  color: var(--text-grey);
+}
+
+.info-pic{
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-pic img {
+  width: 150px;
+}
+.info-pic p {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    .col-4 p{
+        text-align: center;
+    }
+
+  }
+  

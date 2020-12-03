@@ -12,11 +12,12 @@ const HeroSection = () => {
             <h1>Hvordan ser din ventilation ud?</h1>
             <p>Med UVC lys installeret i 
                 ventilationen sparer du 
-                penge og undgår at sprede bakterier, vira og Skimmel</p></div>
+                penge og undgår at sprede bakterier, vira og Skimmel</p>
+                </div>
                 <NavLink className="btn" exact to="/LearnMore">Læs mere</NavLink>
                 
             </div>
-            <div className="hero-form card">
+                <div className="hero-form card">
                 <h2>Bliv kontaktet</h2>
                 <form>
                     <div className="form-control">
