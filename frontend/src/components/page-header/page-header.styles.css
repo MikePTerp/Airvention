@@ -11,8 +11,8 @@
 .pageheader-wrapper {
   max-width: 1300px;
   padding: 2.6rem;
-  background: rgba(0, 0, 0, 0.5);
-  border-left: 0.3rem solid var(--primary-color);
+  background: rgba(22, 22, 22, 0.4);
+  border-left: 0.3rem solid #fff;
 }
 .pageheader-header {
   color: #fff;

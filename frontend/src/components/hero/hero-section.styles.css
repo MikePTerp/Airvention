@@ -12,8 +12,10 @@
   font-size: 40px;
 }
 .blur {
-  background-color: rgba(22, 22, 22, 0.11);
+  background-color: rgba(22, 22, 22, 0.4);
   margin-right: 40%;
+  border-left: 0.3rem solid #fff;
+  padding-left: 10px;
 }
 .hero-section p {
   color: #fff;
