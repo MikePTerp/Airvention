@@ -96,6 +96,7 @@ function Footer() {
               to='/'
               target='_blank'
               aria-label='LinkedIn'
+              rel="noopener noreferrer"
             >
               <a href="https://www.linkedin.com/company/airvention-aps/" target='_blank'>
               <i class='fab fa-linkedin' />

@@ -12,6 +12,12 @@ export const MenuItems = [
         hasChrildren: true
     },
     {
+        title: 'Produkter',
+        url:'/produkter',
+        cName: 'nav-links',
+        hasChrildren: true
+    },
+    {
         title: 'Om Os',
         url:'/Om-os',
         cName: 'nav-links',

@@ -53,5 +53,11 @@ export const DropdownItems = [
         cName: 'dropdown-links',
         parent: 'Lær mere'
     },
+    {
+        title: 'Uvc produkter',
+        url:'/produkter/uvc', 
+        cName: 'dropdown-links',
+        parent: 'Produkter'
+    },
     
 ]

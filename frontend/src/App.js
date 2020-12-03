@@ -1,21 +1,26 @@
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 // Pages
-import Homepage from './components/pages/hompage/homepage.component'
+import Homepage from './pages/hompage/homepage.component'
 // About and sub pages
-import About from './components/pages/about/about.component'
-import History  from './components/pages/about/history/history.component'
-import Team  from './components/pages/about/team/team.component'
-import Vision  from './components/pages/about/vision/vision.component'
+import About from './pages/about/about.component'
+import History  from './pages/about/history/history.component'
+import Team  from './pages/about/team/team.component'
+import Vision  from './pages/about/vision/vision.component'
 // Learn more and sub pages
-import LearMore from './components/pages/learnmore/learn-more.component'
-import Bacteria from './components/pages/learnmore/bacteria/bacteria.component'
-import Mold from './components/pages/learnmore/mold/mold.component'
-import WhatIsUvc from './components/pages/learnmore/what-is-uvc/what-is-uvc.component'
+import LearMore from './pages/learnmore/learn-more.component'
+import Bacteria from './pages/learnmore/bacteria/bacteria.component'
+import Mold from './pages/learnmore/mold/mold.component'
+import WhatIsUvc from './pages/learnmore/what-is-uvc/what-is-uvc.component'
 // Your situation and sub pages
-import YourSituation from './components/pages/your-situation/your-situation.component'
-import FoodCompany from './components/pages/your-situation/food-company/food-company.component'
-import Healthcare from './components/pages/your-situation/healthcare/healthcare.component'
-import Office from './components/pages/your-situation/office/office.component'
+import YourSituation from './pages/your-situation/your-situation.component'
+import FoodCompany from './pages/your-situation/food-company/food-company.component'
+import Healthcare from './pages/your-situation/healthcare/healthcare.component'
+import Office from './pages/your-situation/office/office.component'
+// Products and sub pages
+import Products from './pages/products/products.component'
+import UvcProducts  from './pages/products/uvc-products/uvc-products.component'
+// import Team  from './components/pages/about/team/team.component'
+// import Vision  from './components/pages/about/vision/vision.component'
 //Components
 import Footer from './components/footer/footer.component'
 import Toolbar from './components/toolbar/toolbar.component'
@@ -69,6 +74,11 @@ class App extends Component {
       <Route path='/foedevarevirksomhed' component={FoodCompany} />
       <Route path='/sundhedssektor' component={Healthcare} />
       <Route path='/kontor' component={Office} />
+      {/* Products and sub pages */}
+      <Route path='/produkter' component={Products} exact />
+      <Route path='/produkter/uvc' component={UvcProducts} />
+      {/* <Route path='/sundhedssektor' component={Healthcare} />
+      <Route path='/kontor' component={Office} /> */}
       </Switch>
     <Footer />
     </Router>
