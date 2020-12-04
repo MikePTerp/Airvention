@@ -10,7 +10,7 @@ import Vision  from './pages/about/vision/vision.component'
 import LearMore from './pages/learnmore/learn-more.component'
 import Bacteria from './pages/learnmore/bacteria/bacteria.component'
 import Mold from './pages/learnmore/mold/mold.component'
-import WhatIsUvc from './pages/learnmore/what-is-uvc/what-is-uvc.component'
+import Articles from './pages/learnmore/articles/articles.components'
 // Your situation and sub pages
 import YourSituation from './pages/your-situation/your-situation.component'
 import FoodCompany from './pages/your-situation/food-company/food-company.component'
@@ -68,7 +68,7 @@ class App extends Component {
       <Route path='/laer-mere' component={LearMore} />
       <Route path='/bakterier' component={Bacteria} />
       <Route path='/skimmel' component={Mold} />
-      <Route path='/hvad-er-uvc' component={WhatIsUvc} />
+      <Route path='/artikler' component={Articles} />
       {/* Your situation and sub pages */}
       <Route path='/din-situation' component={YourSituation} />
       <Route path='/foedevarevirksomhed' component={FoodCompany} />

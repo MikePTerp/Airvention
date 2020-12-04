@@ -1,12 +1,12 @@
 import React from 'react'
 import'./page-header.styles.css'
 
- const PageHeader = ({header}) => {
+ const PageHeader = ({title}) => {
     return (
         <div className="pageheader container">
                 <div className="pageheader-wrapper">
                     <h1 className="pageheader-header">
-                        {header}
+                        {title}
                     </h1>
             </div>
         </div>

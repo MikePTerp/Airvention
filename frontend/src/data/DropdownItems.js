@@ -1,10 +1,5 @@
 export const DropdownItems = [
-    {
-        title: 'Sundhedssektor',
-        url:'/sundhedssektor', 
-        cName: 'dropdown-links',
-        parent: 'Din situation'
-    },
+
     {
         title: 'Fødevare virksomhed',
         url:'/foedevarevirksomhed', 
@@ -14,6 +9,12 @@ export const DropdownItems = [
     {
         title: 'Kontor',
         url:'/kontor', 
+        cName: 'dropdown-links',
+        parent: 'Din situation'
+    },
+    {
+        title: 'Sundhedssektor',
+        url:'/sundhedssektor', 
         cName: 'dropdown-links',
         parent: 'Din situation'
     },
@@ -34,6 +35,12 @@ export const DropdownItems = [
         url:'/vores-vision', 
         cName: 'dropdown-links',
         parent: 'Om Os'
+    }, 
+    {
+        title: 'Artikler',
+        url:'/artikler', 
+        cName: 'dropdown-links',
+        parent: 'Lær mere'
     },
     {
         title: 'Bakterier',
@@ -47,12 +54,7 @@ export const DropdownItems = [
         cName: 'dropdown-links',
         parent: 'Lær mere'
     },
-    {
-        title: 'Hvad er UVC',
-        url:'/hvad-er-uvc', 
-        cName: 'dropdown-links',
-        parent: 'Lær mere'
-    },
+ 
     {
         title: 'Uvc produkter',
         url:'/produkter/uvc', 
