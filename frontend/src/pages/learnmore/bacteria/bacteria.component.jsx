@@ -2,12 +2,11 @@ import React from 'react'
 import PageHeader from '../../../components/page-header/page-header.component'
 import ContactedSticky from '../../../components/get-contacted-sticker/get-contacted-sticker.component'
 
-
  const Bacteria = () => {
     return (
         <div className="main-wrapper">
         <div></div>
-    <div className="theMain container "  >
+    <div className="theMain "  >
         <div className="container">
             <PageHeader title="Bakterier er ikke så godt" />
             <main className="main page-main">

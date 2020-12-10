@@ -19,9 +19,9 @@ import '../hompage/testing.css'
             <section className="section">
                 <div className="section-wrapper">
                     <div className="row">
-                    <div className="sction-header col-12"> 
-                    <h1>Fakta om UVC</h1>
-                    </div>
+                        <div className="sction-header col-12"> 
+                            <h1>Fakta om UVC</h1>
+                        </div>
                     </div>  
                     <div className="row">
                         <div className="col-6">

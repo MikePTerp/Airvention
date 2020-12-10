@@ -24,7 +24,7 @@
   opacity: 0.75;
   color: #262626;
 }
-.main-nav ul li a:last-child:hover {
+.main-nav ul li .btn:hover {
   transform: scale(0.98);
   opacity: 1;
   color: #fff;
