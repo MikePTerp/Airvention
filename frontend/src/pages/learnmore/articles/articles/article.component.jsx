@@ -16,8 +16,9 @@ import ContactedSticky from '../../../../components/get-contacted-sticker/get-co
         let id = this.props.match.params.articel_name
         let thisArticle = Articles.find( ({linkUrl}) => linkUrl === id)
 
+        if(thisArticle !== undefined){
         this.setState({thisArticle: thisArticle})
-        this.onlyForTesting(thisArticle.article)
+        this.onlyForTesting(thisArticle.article)}
     }
 
     onlyForTesting = (test) =>{
@@ -35,11 +36,9 @@ import ContactedSticky from '../../../../components/get-contacted-sticker/get-co
     render() {
 
         const thisArticle  = this.state.thisArticle ? (
-            <div className="main-wrapper">
-            <div></div>
-        <div className="theMain container "  >
+            <>
             <PageHeader title={this.state.thisArticle.title} />
-            <main className="main page main">
+            <main className="main page-main">
                 <section className="section">
                     <div className="section wrapper">
                         <div className="row">
@@ -59,24 +58,28 @@ import ContactedSticky from '../../../../components/get-contacted-sticker/get-co
                                 <p>{this.state.content}</p>
                             </div>
                         </div>
-
                     </div>
-
                 </section>
             </main> 
-            </div>
+           </>
+             ) : (
+                 <div>
+             <PageHeader title='Undskyld' />
+             <h1>Vi kunne desværre ikke finde hvad du søgte efter</h1> 
+             </div>
+                )
+
+        
+        return (
+            <div className="main-wrapper">
+                <div></div>
+                <div className="container"  >
+                {thisArticle}
+                </div>
             <div className="theEnd">
         <ContactedSticky></ContactedSticky>
         </div>
         </div>
-             ) : (<h1>Bad request!</h1> )
-
-        
-        return (
-            <div className="container">
-                {thisArticle}
-
-            </div>
         )
     }
 }

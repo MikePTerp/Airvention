@@ -10,7 +10,7 @@ import ContactedSticky from '../../../components/get-contacted-sticker/get-conta
     return (
         <div className="main-wrapper">
         <div></div>
-    <div className="theMain container "  >
+    <div className="theMain"  >
         <div className="container" >
             <PageHeader title="Artikler"/>
             <main className="main page-main">

@@ -16,6 +16,10 @@
   justify-content: center
 }
 
+.contact-form-header h2{
+  color: var(--text-grey);
+}
+
 .contact-form-control{
     margin: 10px 0;
 }

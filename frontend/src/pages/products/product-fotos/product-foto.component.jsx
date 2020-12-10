@@ -18,16 +18,15 @@ class ProductFotos extends Component {
         let product = this.props.match.params.product
         let th = UvcProducts.find(({name}) => name === product)
         
+        if(th !== undefined){
         this.setState({images: th.images})
-        this.setState({product: product})
+        this.setState({product: product})}
     }
 
 
     render(){
         const product  = this.state.product ? (
-            <div className="main-wrapper">
-            <div></div>
-            <div className="theMain container "  >
+            <>
             <PageHeader title={this.state.product} />
             <main className="main page main">
                 <section className="section">
@@ -40,28 +39,32 @@ class ProductFotos extends Component {
                         <div className="row">
                             {this.state.images.map((item, index) =>{
                                 return(
-                                    <div className="image-component">
+                                    <div className="image-component" key={index}>
                                     <img src={`${process.env.PUBLIC_URL}/${item}`} alt="" />   
                                     </div>
                                     )
                                 })}
-
                         </div>
-
                     </div>
-
                 </section>
             </main> 
-            </div>
+           </>                     
+            ) : (
+                <div>
+                <PageHeader title='Undskyld' />
+                <h1>Vi kunne desværre ikke finde hvad du søgte efter</h1> 
+                </div>
+             )
+
+    return (
+        <div className="main-wrapper">
+        <div></div>
+        <div className="container">
+           {product}
+        </div>
         <div className="theEnd">
         <ContactedSticky></ContactedSticky>
         </div>
-        </div>
-            ) : (<h1>Bad request!</h1> )
-
-    return (
-        <div className="container">
-           {product}
         </div>
     )
 }
