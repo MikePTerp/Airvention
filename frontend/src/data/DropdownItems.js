@@ -19,14 +19,8 @@ export const DropdownItems = [
         parent: 'Din situation'
     },
     {
-        title: 'Historie',
-        url:'/vores-historie', 
-        cName: 'dropdown-links',
-        parent: 'Om Os'
-    },
-    {
-        title: 'Holdet',
-        url:'/vores-hold', 
+        title: 'Kontakt',
+        url:'/kontakt', 
         cName: 'dropdown-links',
         parent: 'Om Os'
     },
@@ -57,7 +51,25 @@ export const DropdownItems = [
  
     {
         title: 'Uvc produkter',
-        url:'/produkter/uvc', 
+        url:'/uvc-produkter', 
+        cName: 'dropdown-links',
+        parent: 'Produkter'
+    },
+    {
+        title: 'Ioniserings produkter',
+        url:'/ioniserings-produkter', 
+        cName: 'dropdown-links',
+        parent: 'Produkter'
+    },
+    {
+        title: 'Mobile produkter',
+        url:'/mobile-produkter', 
+        cName: 'dropdown-links',
+        parent: 'Produkter'
+    },
+    {
+        title: 'Path away produkter',
+        url:'/path-away-produkter', 
         cName: 'dropdown-links',
         parent: 'Produkter'
     },

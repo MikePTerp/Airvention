@@ -126,8 +126,9 @@
 .social-icons {
   display: flex;
   justify-content: space-between;
+  margin-left: 30px;
   align-items: center;
-  width: 240px;
+  width: 140px;
 }
 
 .social-logo {

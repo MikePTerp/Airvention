@@ -56,18 +56,6 @@ function Footer() {
               <i class='fab fa-facebook-f' />
               </a>
               
-              
-            </Link>
-            <Link
-              class='social-icon-link instagram'
-              to='/'
-              target='_blank'
-              aria-label='Instagram'
-            >
-              <a href="https://www.facebook.com/Airvention" target='_blank' rel="noopener noreferrer">
-              <i class='fab fa-instagram' />
-              </a>
-              
             </Link>
             <Link
               class='social-icon-link youtube'
@@ -81,18 +69,7 @@ function Footer() {
               
             </Link>
             <Link
-              class='social-icon-link twitter'
-              to='/'
-              target='_blank'
-              aria-label='Twitter'
-            >
-              <a href="https://www.facebook.com/Airvention" target='_blank' rel="noopener noreferrer">
-              <i class='fab fa-twitter' />
-              </a>
-              
-            </Link>
-            <Link
-              class='social-icon-link twitter'
+              class='social-icon-link linkedin'
               to='/'
               target='_blank'
               aria-label='LinkedIn'
