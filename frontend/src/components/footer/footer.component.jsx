@@ -5,16 +5,16 @@ import { Link } from 'react-router-dom';
 function Footer() {
   return (
     <div className='footer-container'>
-      <div class='footer-links'>
+      <div className='footer-links'>
         <div className='footer-link-wrapper'>
-          <div class='footer-link-items'>
+          <div className='footer-link-items'>
             <Link to='/din-situation'><h2>Din situation</h2></Link>
             <Link to='/Foedevarevirksomhed'>Fødevarevirksomhed</Link>
             <Link to='/Kontor'>Kontor</Link>
             <Link to='/Sundhedssektor'>Sundhedssektor</Link>
           </div>
 
-          <div class='footer-link-items'>
+          <div className='footer-link-items'>
             <Link to='/Laer-mere'><h2>Lær mere</h2></Link>
             <Link to='/artikler'>Artikler</Link>
             <Link to='/Bakterier'>Bakterier</Link>
@@ -22,7 +22,7 @@ function Footer() {
             
           </div>
 
-          <div class='footer-link-items'>
+          <div className='footer-link-items'>
             <Link to='/produkter'><h2>Produkter</h2></Link>
             <Link to='/uvc-produkter'>UVC produkter</Link>
             <Link to='/ioniserings-produkter'>Ioniserings produkter</Link>
@@ -32,13 +32,13 @@ function Footer() {
         </div>
         
         <div className='footer-link-wrapper'>
-          <div class='footer-link-items'>
+          <div className='footer-link-items'>
             <Link to='/om-os'><h2>Om os</h2></Link>
             <Link to='/kontakt'>Kontakt</Link>
             <Link to='/Vores-vision'>Vision</Link>
             
           </div>
-          <div class='footer-link-items'>
+          <div className='footer-link-items'>
             <h2>Kontakt</h2>
             <p >Knudlundvej 14, 8653 Them</p>
             <p>+45 29 94 40 00</p>
@@ -46,16 +46,16 @@ function Footer() {
           </div>
         </div>
       </div>
-      <section class='social-media'>
-        <div class='social-media-wrap'>
-          <div class='footer-logo'>
+      <section className='social-media'>
+        <div className='social-media-wrap'>
+          <div className='footer-logo'>
             <Link to='/' className='social-logo'>
               Airvention
               
             </Link>
           </div>
-          <small class='website-rights'>Airvention © 2020</small>
-          <div class='social-icons'>
+          <small className='website-rights'>Airvention © 2020</small>
+          <div className='social-icons'>
             <Link
               class='social-icon-link facebook'
               to=''
