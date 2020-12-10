@@ -8,7 +8,7 @@ import ContactedSticky from '../../components/get-contacted-sticker/get-contacte
     return (
         
         <div className="main-wrapper">
-            <div></div>
+            <div className="theStart"></div>
         <div className="theMain container "  >
         <HeroSection />
         <Checkmarks />

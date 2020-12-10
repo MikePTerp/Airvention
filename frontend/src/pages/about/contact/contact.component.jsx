@@ -14,7 +14,7 @@ import CardProfile from '../../../components/card-profile/card-profile-component
                     <div className="section-wrapper">
                         <div className="row">
                             <div className="section-header col-12">
-                                <h1>Kontakt os</h1>
+                                <h1>Her finder du os</h1>
                             </div>
                         </div>
                         <div className="row">
@@ -27,7 +27,7 @@ import CardProfile from '../../../components/card-profile/card-profile-component
                         </div>
                         <div className="row">
                             <div className="section-header col-12">
-                                <h1>Mød holdet bag Airvention</h1>
+                                <h1>Hvem er vi</h1>
                             </div>
                         </div>
                         <div className="row">

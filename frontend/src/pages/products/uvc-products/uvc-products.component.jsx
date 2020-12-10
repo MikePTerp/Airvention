@@ -9,7 +9,7 @@ import ContactedSticky from '../../../components/get-contacted-sticker/get-conta
  const UvcProductCard = () => {
     return (
         <div className="main-wrapper">
-            <div></div>
+            <div className="theStart"></div>
         <div className="container">
             <PageHeader title="Uvc Produkter" />
             <main className="main page-main">
