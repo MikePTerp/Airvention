@@ -14,18 +14,18 @@ function SideDrawerItem({item}){
                 <li>
                                 <NavLink className={`${item.cName} child`} exact to={item.url} role="button">
                                 {<>{item.title} {<div className="toggle-submenu"> {item.hasChrildren?
-                                    <i class="fas fa-angle-right" className="fas fa-angle-right icon-sidedrawer" onClick={toggleSubmMenu}></i>: null} </div>} 
+                                    <i className="fas fa-angle-right" className="fas fa-angle-right icon-sidedrawer" onClick={toggleSubmMenu}></i>: null} </div>} 
                                     </>}  
                                 </NavLink>
                                 
                         <div className={(subMenu)? "sub-wrapper open" : "sub-wrapper"}>
                                 <ul className="sub-list">
                                     <li  onClick={toggleSubmMenu}>
-                                    <div className="go-back"><i class="fas fa-angle-left"></i>
-                                    <text className="back-btn-text">Tilbage</text>
+                                    <div className="go-back"><i className="fas fa-angle-left"></i>
+                                    <div className="back-btn-text">Tilbage</div>
                                     </div>
                                     </li>
-                                    <li><text className="heading-sub-menu"  >{item.title}</text></li>
+                                    <li><div className="heading-sub-menu"  >{item.title}</div></li>
                                     {DropdownItems.map((childItem, childIndex) =>{
                                         if(childItem.parent === item.title){
                                             return(

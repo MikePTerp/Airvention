@@ -17,20 +17,21 @@ const Toolbar = props => {
                             return (
                             <li key={index}>
                                 <NavLink className={`${item.cName} child`} exact to={item.url} role="button">
-                                {<>{item.title} {<i class="fas fa-caret-down"></i>} </>}  
+                                {<>{item.title} {<i className="fas fa-caret-down"></i>} </>}  
                                 </NavLink>
                                     <div className="dropdown-wrapper">
                                 <ul className="dropdown-list">
                                     {DropdownItems.map((childItem, childIndex) =>{
-                                        if(childItem.parent == item.title){
-                                        return(
-                                        <li key={childIndex}>
-                                            <NavLink className={childItem.cName} exact to={childItem.url}>
-                                                <span>{childItem.title}</span>  
-                                            </NavLink>
-                                        </li>
-                                        )
+                                        if(childItem.parent !== item.title){
+                                            return(null)
                                         }
+                                            return(
+                                            <li key={childIndex}>
+                                                <NavLink className={childItem.cName} exact to={childItem.url}>
+                                                    <span>{childItem.title}</span>  
+                                                </NavLink>
+                                            </li>
+                                            )
                                     })}
                                 </ul>
                                     </div>

@@ -56,40 +56,37 @@ function Footer() {
           </div>
           <small className='website-rights'>Airvention © 2020</small>
           <div className='social-icons'>
-            <Link
-              class='social-icon-link facebook'
-              to=''
+            <div
+              className='social-icon-link facebook'
               target='_blank'
               aria-label='Facebook'
             >
               <a href="https://www.facebook.com/Airvention" target='_blank' rel="noopener noreferrer">
-              <i class='fab fa-facebook-f' />
+              <i className='fab fa-facebook-f' />
               </a>
               
-            </Link>
-            <Link
-              class='social-icon-link youtube'
-              to='/'
+            </div>
+            <div
+              className='social-icon-link youtube'
               target='_blank'
               aria-label='Youtube'
             >
               <a href="https://www.youtube.com/channel/UCzl4ZKKy-TRI7ciwqiZV0QQ" target='_blank' rel="noopener noreferrer">
-              <i class='fab fa-youtube' />
+              <i className='fab fa-youtube' />
               </a>
               
-            </Link>
-            <Link
-              class='social-icon-link linkedin'
-              to='/'
+            </div>
+            <div
+              className='social-icon-link linkedin'
               target='_blank'
               aria-label='LinkedIn'
               rel="noopener noreferrer"
             >
-              <a href="https://www.linkedin.com/company/airvention-aps/" target='_blank'>
-              <i class='fab fa-linkedin' />
+              <a href="https://www.linkedin.com/company/airvention-aps/" target='_blank' rel="noopener noreferrer">
+              <i className='fab fa-linkedin' />
               </a>
               
-            </Link>
+            </div>
           </div>
         </div>
       </section>
