@@ -60,6 +60,9 @@ h2 {
   line-height: 1.2;
   margin: 10px 0;
 }
+h3{
+  color: var(--text-grey);
+}
 h4{
   font-weight: bold;
   color: var(--text-grey);
@@ -200,7 +203,7 @@ img {
 .row {
   display: flex;
   flex-wrap: wrap;
-  margin: 20px -15px;
+  margin: 20px 0px;
 }
 
 .col-12 h1 {
@@ -231,9 +234,15 @@ p {
   margin-left: -20;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .grid {
     grid-template-rows: 1fr;
     grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 1500px) {
+
+  .container{
+    background-color: royalblue;
   }
 }
