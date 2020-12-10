@@ -1,10 +1,14 @@
 import React from 'react'
 import PageHeader from '../../../components/page-header/page-header.component'
+import ContactedSticky from '../../../components/get-contacted-sticker/get-contacted-sticker.component'
 
 
  const Vision = () => {
     return (
-        <div className="container">
+        <div className="main-wrapper">
+        <div className="theStart"></div>
+         <div className="theMain container "  >
+            <div className="">
             <PageHeader title="Vision" />
             <main className="main page-main">
                 <section className="section">
@@ -27,6 +31,11 @@ import PageHeader from '../../../components/page-header/page-header.component'
                     </div>
                 </section>
             </main>
+        </div>
+        </div>
+        <div className="theEnd">
+        <ContactedSticky></ContactedSticky>
+        </div>
         </div>
     )
 }

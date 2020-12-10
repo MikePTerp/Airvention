@@ -12,7 +12,7 @@ import '../hompage/testing.css'
  const LearnMore = () => {
     return (
         <div className="main-wrapper">
-            <div></div>
+            <div className="the-start"></div>
         <div className="container">
         <PageHeader title="Lær mere"/>
         <main className="main page-main">

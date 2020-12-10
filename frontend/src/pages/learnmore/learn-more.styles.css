@@ -1,12 +1,3 @@
-.section-wrapper {
-  width: 100%;
-  margin: 0 auto;
-}
-
-.page-main{
-    padding-top: 15px;
-}
-
 
 
 .info-pic{
@@ -24,10 +15,5 @@
     font-weight: bold;
 }
 
-@media screen and (max-width: 768px) {
-    .col-4 p{
-        text-align: center;
-    }
 
-  }
   

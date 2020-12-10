@@ -3,6 +3,7 @@ import './card-profile.styles.css'
 
 const CardProfile = ({profile}) => {
     return (
+        <div className="profile-card-container">
         <div className="profile-card">
             <div className="profile-header">
                 <img src={`${profile.image}`} alt=""/>
@@ -13,7 +14,7 @@ const CardProfile = ({profile}) => {
                 <a href={`mailto:${profile.mail}`}>{profile.mail}</a>
                 <p>{profile.phone}</p>
             </div>
-            
+            </div>
         </div>
     )
 }

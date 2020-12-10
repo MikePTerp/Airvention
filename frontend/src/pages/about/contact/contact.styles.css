@@ -1,5 +1,5 @@
 .phone-line {
-    display: flex;
+    display: inline-flex;
   }
   
   .phone-line p{
@@ -9,6 +9,7 @@
   
   
   i.fas.fa-phone{
+      margin-top: 0;
       padding: 10px 0px;
       font-size: 20px;
       color: var(--text-grey)
