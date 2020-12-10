@@ -2,19 +2,12 @@
   width: 100%;
   margin: 0 auto;
 }
-.col-12 h1 {
-    font-size: 3rem;
-    font-weight: bold;
-    color: var(--text-grey);
-}
+
 .page-main{
     padding-top: 15px;
 }
 
-.col-6 h2,
-p {
-  color: var(--text-grey);
-}
+
 
 .info-pic{
     flex: 1 1 0;

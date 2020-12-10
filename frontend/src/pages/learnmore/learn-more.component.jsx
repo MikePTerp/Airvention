@@ -6,9 +6,13 @@ import UVB from '../../img/uvc-info/UVB_x1-150x150.png'
 import UVC from '../../img/uvc-info/UVC-mikrober_x1-150x150.png'
 import Subheader from '../../components/sub-header/sub-header.component'
 import Card from '../../components/card/card.component'
+import ContactedSticky from '../../components/get-contacted-sticker/get-contacted-sticker.component'
+import '../hompage/testing.css'
 
  const LearnMore = () => {
     return (
+        <div className="main-wrapper">
+            <div></div>
         <div className="container">
         <PageHeader title="Lær mere"/>
         <main className="main page-main">
@@ -69,6 +73,10 @@ import Card from '../../components/card/card.component'
 
             </section>
             </main>
+        </div>
+        <div className="theEnd">
+            <ContactedSticky />
+        </div>
         </div>
     )
 }

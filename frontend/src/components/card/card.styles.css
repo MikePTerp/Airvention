@@ -9,8 +9,6 @@
   margin: 15px;
   overflow: hidden;
   background-color: var(--primary-color);
-
-
 }
 
 .card-item:hover .background-image {

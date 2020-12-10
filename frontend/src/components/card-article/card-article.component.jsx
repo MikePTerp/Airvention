@@ -1,23 +1,29 @@
 import React from 'react'
-import cardComponent from '../card/card.component'
 import './card-article.styles.css'
+import {withRouter} from 'react-router-dom'
 
- const CardArticle = ({title, intro, creator, date, image}) => {
+
+ const CardArticle = ({article, history}) => {
     return (
-        <div className="card-article-item">
-               <div
-      className='image-article'
-    > <img className="the-img" src={`${image}`}/></div>
-            <div className="content-article-card">
-                <h1 className="title-article">{title}</h1>
-                <div className="article-creator">
-                    <p>{`${creator}    -    `}</p>
-                    <p>{date}</p>
+        <div className="card-article-container">
+        <div className="card-article-item" onClick={() => history.push(`${article.linkUrl}`)}>
+               <div className='card-article-header'>
+                    <img  src={`${article.image}`} alt=""/>
                 </div>
-                <p className="intro-article">{intro}</p>
+                <div className="card-article-body">
+                    <h4 className="title-article">{article.title}</h4>
+                    <p className="intro-article">{article.intro}</p>
+                    <div className="creator">
+                        <img src={`${article.creator.img}`} alt=""/>
+                        <div className="creator-info">
+                        <p>{`${article.creator.name}`}</p>
+                        <small>{article.date}</small>
+                    </div>
                 </div>
             </div>
+        </div>
+        </div>
     )
 }
 
-export default CardArticle
+export default withRouter(CardArticle)

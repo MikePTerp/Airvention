@@ -60,6 +60,10 @@ h2 {
   line-height: 1.2;
   margin: 10px 0;
 }
+h4{
+  font-weight: bold;
+  color: var(--text-grey);
+}
 
 p {
   margin: 10px 0;
@@ -197,7 +201,34 @@ img {
   display: flex;
   flex-wrap: wrap;
   margin: 20px -15px;
+}
 
+.col-12 h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--text-grey);
+}
+.col-6 h2,
+p {
+  color: var(--text-grey);
+}
+.col-6 h2{
+  font-weight: bold;
+  margin-top: 25px;
+}
+.col-6 :first-child{
+  margin-top: 10px;
+}
+
+.no-header{
+  min-width: 1400px;
+}
+
+.main-wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1400px 1fr ;
+  height: 100%;
+  margin-left: -20;
 }
 
 @media (max-width: 768px) {

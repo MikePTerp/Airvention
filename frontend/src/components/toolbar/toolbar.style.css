@@ -1,17 +1,18 @@
 .main-nav .container {
   margin-bottom: 25px;
+  margin-top: 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: 70px;
   font-size: 13px;
   border-bottom: rgb(209, 205, 205) 1px solid;
-  max-width: 1500px;
+  max-width: 1320px;
+  padding: 0px;
 }
 
 .main-nav .logo {
-  margin-left: 20px;
-  width: 170px;
+  width: 250px;
   height: 100%;
 }
 
@@ -22,6 +23,11 @@
 .main-nav ul li a:hover {
   opacity: 0.75;
   color: #262626;
+}
+.main-nav ul li a:last-child:hover {
+  transform: scale(0.98);
+  opacity: 1;
+  color: #fff;
 }
 .main-nav ul li a.active {
   color: #008cc6;
@@ -58,6 +64,7 @@
   white-space: nowrap;
   display: block;
 }
+
 
 /* Hamburger button + area */
 .toolbar-toggle-btn.when-small {

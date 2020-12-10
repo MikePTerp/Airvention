@@ -1,0 +1,35 @@
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex: 1 1 auto;
+  margin-left: -25px ;
+}
+
+.contact-form {
+  overflow: hidden;
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  background-color: var(--primary-color);
+  justify-content: center
+}
+
+.contact-form-control{
+    margin: 10px 0;
+}
+
+.contact-form input[type='text'],
+.contact-form input[type='email']
+{
+    border: 0;
+    border-bottom: 1 solid #b4becb;
+    width: 100%;
+    padding: 3px;
+    font-size: 16px;
+}
+
+.contact-form input[type='submit']{
+    margin: 0 40px;
+}
