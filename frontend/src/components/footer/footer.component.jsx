@@ -9,23 +9,33 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <Link to='/din-situation'><h2>Din situation</h2></Link>
-            <Link to='/Sundhedssektor'>Sundhedssektor</Link>
             <Link to='/Foedevarevirksomhed'>Fødevarevirksomhed</Link>
             <Link to='/Kontor'>Kontor</Link>
+            <Link to='/Sundhedssektor'>Sundhedssektor</Link>
           </div>
+
           <div class='footer-link-items'>
-            <Link to='/laermere'><h2>Lær mere</h2></Link>
+            <Link to='/Laer-mere'><h2>Lær mere</h2></Link>
+            <Link to='/artikler'>Artikler</Link>
             <Link to='/Bakterier'>Bakterier</Link>
             <Link to='/Skimmel'>Skimmel</Link>
-            <Link to='/Hvad-er-UVC'>Hvad er UVC</Link>
+            
+          </div>
+
+          <div class='footer-link-items'>
+            <Link to='/produkter'><h2>Produkter</h2></Link>
+            <Link to='/uvc-produkter'>UVC produkter</Link>
+            <Link to='/ioniserings-produkter'>Ioniserings produkter</Link>
+            <Link to='/mobile-produkter'>Mobile produkter</Link>
+            <Link to='/path-away-produkter'>Pathaway produkter</Link>
           </div>
         </div>
+        
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <Link to='/om-os'><h2>Om os</h2></Link>
-            <Link to='/Vores-historie'>Vores historie</Link>
-            <Link to='/Vores-hold'>Vores hold</Link>
-            <Link to='/Vores-vision'>Vores vision</Link>
+            <Link to='/kontakt'>Kontakt</Link>
+            <Link to='/Vores-vision'>Vision</Link>
             
           </div>
           <div class='footer-link-items'>
