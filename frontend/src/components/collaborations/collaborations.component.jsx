@@ -1,6 +1,5 @@
 import React from 'react'
 import './collaborations.styles.css'
-import ArlaLogo from '../../img/logos/arla-logo.jpg'
 import SubHeader from '../sub-header/sub-header.component'
 
 const Collaborations = () => {
@@ -11,16 +10,16 @@ const Collaborations = () => {
                 <div className="grid-4 logos">
                     <ul className="collaboration-logos-list">
                         <li>
-                            <img src={ArlaLogo} alt="logo" />
+                            <img src="/img/logos/arla-logo.jpg" alt="logo" />
                         </li>
                         <li>
-                            <img src={ArlaLogo} alt="logo" />
+                            <img src="/img/logos/arla-logo.jpg" alt="logo" />
                         </li>
                         <li>
-                            <img src={ArlaLogo} alt="logo" />
+                            <img src="/img/logos/arla-logo.jpg" alt="logo" />
                         </li>
                         <li>
-                            <img src={ArlaLogo} alt="logo" />
+                            <img src="/img/logos/arla-logo.jpg" alt="logo" />
                         </li>
                     </ul>
                 </div>

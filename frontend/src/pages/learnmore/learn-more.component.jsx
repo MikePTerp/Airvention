@@ -1,9 +1,6 @@
 import React from 'react'
 import PageHeader from '../../components/page-header/page-header.component'
 import './learn-more.styles.css'
-import UVA from '../../img/uvc-info/UVA_x1-150x150.png'
-import UVB from '../../img/uvc-info/UVB_x1-150x150.png'
-import UVC from '../../img/uvc-info/UVC-mikrober_x1-150x150.png'
 import Subheader from '../../components/sub-header/sub-header.component'
 import Card from '../../components/card/card.component'
 import ContactedSticky from '../../components/get-contacted-sticker/get-contacted-sticker.component'
@@ -37,21 +34,21 @@ import '../hompage/testing.css'
                     </div>
                     <div className="row">
                                 <div className="info-pic col-sm-4">
-                                <img src={UVA} alt="uva" />
+                                <img src="/img/uvc-info/UVA_x1-150x150.png" alt="uva" />
                                 <p>
                                 UVA “Sort lys” 
                                 uskadelige sjov
                                 </p>
                             </div >
                                 <div className="info-pic col-sm-4">
-                                <img src={UVB} alt="uvb" />
+                                <img src="/img/uvc-info/UVB_x1-150x150.png" alt="uvb" />
                                 <p>
                                 UVB 
                                 Forårsager solskoldning
                                 </p>
                             </div>
                                 <div className="info-pic col-sm-4">
-                                <img src={UVC} alt="uvc" />
+                                <img src="/img/uvc-info/UVC_x1-150x150.png" alt="uvc" />
                                 <p>
                                 UVC 
                                 Effektiv til at dræbe mikrober

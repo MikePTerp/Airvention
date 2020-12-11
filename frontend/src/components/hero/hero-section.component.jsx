@@ -5,8 +5,12 @@ import './hero-section.styles.css'
 
 const HeroSection = () => {
     return (
-        <section className="hero-section">
-            <div className="container grid">
+        <section className="hero-section" >
+            <div className="container grid"
+                    style={{
+                        backgroundImage: 'url(/img/Hero1.png)'
+                      }}
+            >
                 <div className="hero-section-text">
                     <div className="blur">
             <h1>Hvordan ser din ventilation ud?</h1>
