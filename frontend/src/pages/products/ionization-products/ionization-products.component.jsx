@@ -5,7 +5,8 @@ import ContactedSticky from '../../../components/get-contacted-sticker/get-conta
  const IonizationProducts = () => {
     return (
         <div className="main-wrapper">
-        <div></div>
+        <div className="theStart"></div>
+        <div className="theMain">
         <div className="container">
             <PageHeader title="Kommer snart...." />
             <main className="main page-main">
@@ -19,6 +20,7 @@ import ContactedSticky from '../../../components/get-contacted-sticker/get-conta
                     </div>
                 </section>
             </main>
+        </div>
         </div>
         <div className="theEnd">
         <ContactedSticky></ContactedSticky>

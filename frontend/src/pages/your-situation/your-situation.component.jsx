@@ -7,8 +7,8 @@ import Card from '../../components/card/card.component'
  const YourSituation = () => {
     return (
         <div className="main-wrapper">
-        <div></div>
-    <div className="theMain container "  >
+        <div className="theStart"></div>
+    <div className="theMain"  >
         <div className="container">
             <PageHeader title="Din situation" />
             <main className="main page-main">

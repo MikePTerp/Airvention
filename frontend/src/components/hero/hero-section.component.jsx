@@ -18,7 +18,7 @@ const HeroSection = () => {
                 ventilationen sparer du 
                 penge og undgår at sprede bakterier, vira og Skimmel</p>
                 </div>
-                <NavLink className="btn" exact to="/LearnMore">Læs mere</NavLink>
+                <NavLink className="btn" exact to="/laer-mere">Læs mere</NavLink>
                 
             </div>
                 <div className="hero-form card">

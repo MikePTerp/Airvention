@@ -7,8 +7,8 @@ import ContactedSticky from '../../../components/get-contacted-sticker/get-conta
 const FoodCompany = () => {
     return (
                 <div className="main-wrapper">
-                <div></div>
-            <div className="theMain container "  >
+                <div className="theStart"></div>
+            <div className="theMain "  >
                 <div className="container">
                     <PageHeader title="Fødevare virksomhed" />
                     <main className="main page-main">
