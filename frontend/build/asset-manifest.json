@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Airvention/static/css/main.3aa155e1.chunk.css",
+    "main.js": "/Airvention/static/js/main.f61c28bb.chunk.js",
+    "main.js.map": "/Airvention/static/js/main.f61c28bb.chunk.js.map",
+    "runtime-main.js": "/Airvention/static/js/runtime-main.c2fce334.js",
+    "runtime-main.js.map": "/Airvention/static/js/runtime-main.c2fce334.js.map",
+    "static/js/2.7ce0d500.chunk.js": "/Airvention/static/js/2.7ce0d500.chunk.js",
+    "static/js/2.7ce0d500.chunk.js.map": "/Airvention/static/js/2.7ce0d500.chunk.js.map",
+    "static/js/3.8141fc92.chunk.js": "/Airvention/static/js/3.8141fc92.chunk.js",
+    "static/js/3.8141fc92.chunk.js.map": "/Airvention/static/js/3.8141fc92.chunk.js.map",
+    "index.html": "/Airvention/index.html",
+    "static/css/main.3aa155e1.chunk.css.map": "/Airvention/static/css/main.3aa155e1.chunk.css.map",
+    "static/js/2.7ce0d500.chunk.js.LICENSE.txt": "/Airvention/static/js/2.7ce0d500.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c2fce334.js",
+    "static/js/2.7ce0d500.chunk.js",
+    "static/css/main.3aa155e1.chunk.css",
+    "static/js/main.f61c28bb.chunk.js"
+  ]
+}
